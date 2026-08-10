@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="DoctorRoomApp.exe" version="1.0.0.0" publicKeyToken="f2d08158725ad91b" language="en" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="DoctorRoomApp.exe" version="1.0.0.1" publicKeyToken="b1ece87309ac14b6" language="en" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="Assets\app.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>SRDB60ZoGkkLqX2LluXMi4PQZOXc307RS9QBpmKCdCw=</dsig:DigestValue>
+        <dsig:DigestValue>+g8HA94D0jFPe7NozyoMfi0mGSh1nKfHCqeXLlWAZIs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -81,6 +81,24 @@
       <dsig:DigestValue>oF+Zc098SCL+/BKzZ68h/Ql27WYIdS+x4egLbs5+y7s=</dsig:DigestValue>
     </hash>
   </file>
+  <file name="DPCtlUruNet.dll" size="117432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ABYv+o3Sh22jsvFffKt2JS/MpgeQ+FNYAVF1Ff2iOhY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DPUruNet.dll" size="58040">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OWKuGbqlWTjsh1ROvBm9BrlPcT85bw4IcyrxPXyX2Qk=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="DirectWriteForwarder.dll" size="517928">
     <hash>
       <dsig:Transforms>
@@ -90,22 +108,22 @@
       <dsig:DigestValue>L0MM9sVpKpV8d6rWTsGYDdtPxNikf6EDCB3luNXZE1A=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="DoctorRoomApp.deps.json" size="35555">
+  <file name="DoctorRoomApp.deps.json" size="36251">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>HU08JH1T08A00YG1UyBKOARKLmy076sH0INOQvBkyMo=</dsig:DigestValue>
+      <dsig:DigestValue>/S4IcTdEzYMX6ygjDUrA22XHIF4VvvT7VHjnIQ2Zr88=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="DoctorRoomApp.dll" size="208304">
+  <file name="DoctorRoomApp.dll" size="258480">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>qAosM5Y0VCIVvroxAT1RzexIEQM1Sl6bFFsFz18ImMM=</dsig:DigestValue>
+      <dsig:DigestValue>ShBi3Ifn3dI25kRcseL19mZh69/oeJcaBL2+x8FRqF4=</dsig:DigestValue>
     </hash>
   </file>
   <file name="DoctorRoomApp.exe" size="178608">
@@ -114,7 +132,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>tG5aZnbv8IgGwiIv7Vf9tqyMcyxCQfXcVALYTRABX8w=</dsig:DigestValue>
+      <dsig:DigestValue>sXsD+QhW/f1IbMTXOchLu5SPBDBzr3ktpPW8jYt0xmw=</dsig:DigestValue>
     </hash>
   </file>
   <file name="DoctorRoomApp.runtimeconfig.json" size="439">
@@ -124,6 +142,78 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>wmTiC+GaxcoiM3nqXI/dHmWPChDEvvj5pnx2N4XGClg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Helper\DPCtlUruNet.dll" size="117432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ABYv+o3Sh22jsvFffKt2JS/MpgeQ+FNYAVF1Ff2iOhY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Helper\DPFingerprintHelper.dll" size="11776">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>v6J/1sQz4Ygc50980T9kyo8zPhgyazj3UqsoEVdLYuA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Helper\DPFingerprintHelper.exe" size="151552">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9lBGzPPorgzJ/tCTLdoctXNQLHl8+9Jl0Rz6Jcf9uQg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Helper\DPUruNet.dll" size="58040">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OWKuGbqlWTjsh1ROvBm9BrlPcT85bw4IcyrxPXyX2Qk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Helper\dpfj.dll" size="400560">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>81uaAxgvtki8ATNiqJ2nwXNcvMX+y/m7SNjWHQjE2KQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Helper\dpfpdd.dll" size="237744">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Cx9V7fSw40e0tlvXDXqkdNJZ8J09kZ8SgfI0y5qngFM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lib\dpfj.dll" size="400560">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>81uaAxgvtki8ATNiqJ2nwXNcvMX+y/m7SNjWHQjE2KQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Lib\dpfpdd.dll" size="237744">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Cx9V7fSw40e0tlvXDXqkdNJZ8J09kZ8SgfI0y5qngFM=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Microsoft.CSharp.dll" size="1005352">
@@ -2241,4 +2331,4 @@
       <dsig:DigestValue>zEDiejp+FN1KjEIwgfo2dAbgk74dx5dZ5W2CjhQLwBQ=</dsig:DigestValue>
     </hash>
   </file>
-<publisherIdentity name="CN=DESKTOP-6BDD4R8\zulki" issuerKeyHash="c5cad90058cf2f9baf50516ba24e8d52bf9972a1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>kP9evEFppggxR3FF01nVTwZZ64X5jp5AA4F+S50AxUI=</DigestValue></Reference></SignedInfo><SignatureValue>MwyU85OlH1VM/X1noNF2OtUl1GArabLIF7MVISytdX90e9biHLGYt1bGFKSgFnxdjSgSdzFraHoFjlnBi0Jdaxu8imaRuJ2lLqwCSFc0GM9M3FghusKW1apMDexboI6u8Uz5U/udhe9zI8Uo7PLnjBiS4BR2oMKzEMm3qiiMrR07po1Gwm3iivNguYPLDYESluUtISqLsu3LSjDqEXHgUgHC0PDFI6a+h3T8w85TRdyRsUOwCJ38fou0MZf2RH2UhTpUTqXhR0wFCwbqDfigI2TfZ7Qo75yXXlI12Pda+oM+NEmVD58Nx0QoJ7penUk7mudjq7VjNI/FIna8Ix41wA==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tLBUDJ0iW6h5uSFISEk8NLQpYAT+qvW1uCVQml9jwJdy7ourvOtppd/29a3eJ4NAsdv8KJueL6nWLPwMewzqr8uV3kU1WFXZHVIkI/aDyRxy9W9ElJ/DgxhhHGJbA5F9iiBmZbDmLGZqKrjoAy+nXlinCtbF7JB4w3E6AKCbWhzLaTb//j4ixYqkDvSR0YHqTIcwrv6TPm1hSmQDKNcGnfmOa41BKIScSdCXzKwtAG+NxAwaS+94K63fMeGn8QycdFFCBNAieXOdE13WAyBaFzub9DHt5/Zb6UV0t+mz5H6UNfndPohGYlBFu9VzdPYCOsAFjyGgNRZiLlkC4j7bhQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="42c5009d4b7e8103409e8ef985eb59064fd559d34571473108a66941bc5eff90" Description="" Url=""><as:assemblyIdentity name="DoctorRoomApp.exe" version="1.0.0.0" publicKeyToken="f2d08158725ad91b" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-6BDD4R8\zulki</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>MzQMFLnms2wpoG1Db524N3WStHtXFtdpLAD67dzjR9U=</DigestValue></Reference></SignedInfo><SignatureValue>bv7eEm6M2M/IoK3e6IDV+FETUPvQRGWcwY3ZGnsXF9qTBdKfKCRfQjdByeVqaVVNr9R2MZ4o6PHz0RJWKcnEKnMN1eCfLoOsvG3i2dHP+uaYPT9ABKHEP7NFdymINdIbAhPeuTdjIQr55Y5S1SVWDerp8NLSczMl8z25mOTW78ArMlndMBMR+mWr0zSocfK7RI72UPWWp5k2F9o20LYSc7GjPa1tvta/NuUupxicwvqEl1dmzXuD38+dALB2IaVrX0gij09D0QMIz+gq0vGC6Qt07MUtV44Y6R15RW0Xuf8t+h8h5J34CoGj/uG3d3q8mpnQTrEz1uq+S4opSoq5qQ==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tLBUDJ0iW6h5uSFISEk8NLQpYAT+qvW1uCVQml9jwJdy7ourvOtppd/29a3eJ4NAsdv8KJueL6nWLPwMewzqr8uV3kU1WFXZHVIkI/aDyRxy9W9ElJ/DgxhhHGJbA5F9iiBmZbDmLGZqKrjoAy+nXlinCtbF7JB4w3E6AKCbWhzLaTb//j4ixYqkDvSR0YHqTIcwrv6TPm1hSmQDKNcGnfmOa41BKIScSdCXzKwtAG+NxAwaS+94K63fMeGn8QycdFFCBNAieXOdE13WAyBaFzub9DHt5/Zb6UV0t+mz5H6UNfndPohGYlBFu9VzdPYCOsAFjyGgNRZiLlkC4j7bhQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIDJTCCAg2gAwIBAgIJAKbMwTYBuAdqMA0GCSqGSIb3DQEBCwUAMDUxMzAxBgNVBAMeKgBEAEUAUwBLAFQATwBQAC0ANgBCAEQARAA0AFIAOABcAHoAdQBsAGsAaTAeFw0yNjA3MjYwODExMDhaFw0yNjA4MDIwODExMDhaMDUxMzAxBgNVBAMeKgBEAEUAUwBLAFQATwBQAC0ANgBCAEQARAA0AFIAOABcAHoAdQBsAGsAaTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALSwVAydIluoebkhSEhJPDS0KWAE/qr1tbglUJpfY8CXcu6Lq7zraaXf9vWt3ieDQLHb/Cibni+p1iz8DHsM6q/Lld5FNVhV2R1SJCP2g8kccvVvRJSfw4MYYRxiWwORfYogZmWw5ixmaiq46AMvp15YpwrWxeyQeMNxOgCgm1ocy2k2//4+IsWKpA70kdGB6kyHMK7+kz5tYUpkAyjXBp35jmuNQSiEnEnQl8ysLQBvjcQMGkvveCut3zHhp/EMnHRRQgTQInlznRNd1gMgWhc7m/Qx7ef2W+lFdLfps+R+lDX53T6IRmJQRbvVc3T2AjrABY8hoDUWYi5ZAuI+24UCAwEAAaM4MDYwDAYDVR0TAQH/BAIwADAOBgNVHQ8BAf8EBAMCB4AwFgYDVR0lAQH/BAwwCgYIKwYBBQUHAwMwDQYJKoZIhvcNAQELBQADggEBAGbxdOzDiCfTxxeWO1Qwa1c17gtNfE2P91sn/dG+8IOvYuEmcNreZCT8IMX5aHH27kWc/1QFsgnTAytcX4zuun3BQxpQWZQWk4R06AAAKgKEPgnP89gaxuuhTsMihkGb+Gq5mbbbeCPTQLqUL+yGBCGvq9r0yOX6ejwCb9ksOTsKjLz5vM7X40CBmRpKtb15Tsek+6NuyCTuScg3zQKVGXxjDMb6yuQ51TFKvypRMgi7eNB7qJQbvuosenVaUQOM7uczUTvP/kHMjV2cSgn4nA8IEQVQl7726z2GTu1FsL32aC4c3CM6EoTEaLj4AFfMoBMhG6NdQJnIxMs3aPlsW6E=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=DESKTOP-AKG3D0F\kifal" issuerKeyHash="d14f95016a90fb6fe32aa09e81380181fe52bc7f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>eeAYqPf5T4Idgt1MLakkjuXKJt1UCfY1Pp0DQ27bLrw=</DigestValue></Reference></SignedInfo><SignatureValue>f0yr1/zvqlV1Frn3YgUrAe/hYzbxTlQVC4SkNCXlhEsP++W368338RGMzGuf+PCU5tMnX0Ki33y6MuPlwffo/jOfOkGfGFM/jYiHySWJTMEY+jlF+JXfDOfqu4S6ikL7PStiR1R5KJniIXyOgYJeS4fS3Yll5q+mKBorlSsKGfWv1xD69uKi2pNxJLYUv6qKOIDfmWSJVT4BPpoVaKQgWl/r3LYYnwPL8Qpb9RTYsmNr0ti08vg4FcisvTFRXFGW0g4R3jVN7JMNkq4Sy3QKugLowz7xNBCTYWsiNvEf487ZLuMFmYnkCzq9+fH8WxEBQmtas/qzl/6YZrAzqjxdJA==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6SFFyevxZVtQ3eTXyGW2A1nzCP/DUijVPDA92KWLeuEKEzmR8fdqe8FxJ68XkoSbFx8/LsCHEmfjWEKqAI9nlhzwgrcyGFqgqZlCXMCWMFpX6zIwRVjqeFWVk20ZWJ11oakTjiD34Q2/owVm/z4vWMaxYhjA2PpWFk8GR6wRhVp7GoAkggPBhQOuSkMDrSvBWAAgAHS4uMOzfCXoeOoCM/vaLtMld1fHpZc50Stn4Rdo35eEY1HSl7b1VTZTIneZmCVMGUnqRg3DQVK/bLd2ihEiLZZFGjiePobHU+Kwsd0ZSONVqSAKVQALWh4kc4/p90FDLNubS9SNzKIgm66nTQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bc2edb6e43039d3e35f60954dd26cae58e24a92d4cdd821d824ff9f7a818e079" Description="" Url=""><as:assemblyIdentity name="DoctorRoomApp.exe" version="1.0.0.1" publicKeyToken="b1ece87309ac14b6" language="en" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-AKG3D0F\kifal</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>fIXu476287CikyZ5TqYXbNG5ZWBIrvsFppvd6GK05SE=</DigestValue></Reference></SignedInfo><SignatureValue>qf7GRhO293D6IyKlGV3FCrOR/IZx0nMANPZB6bZ9U+BT9VtAXb6tlV7FHrFCa/rP1sL/Em8QpuKJxLoViKNiMJx2nJf7PO3pyacfLu+KFSLtm5PMnkh8d/8AHVT2Vm4abkn7rx953TIK8FnlcDvlwcD1G9oqaWlu6a4T80xbnYiPwUqdxOMdOp2xN3ZSj/nXsTzyGbqeMWF5Cy//fXFGa+Su4ynByaGYc8Qu3JYxsgy/LEBEXDAzOfV2ywTU9fGlm5F7mvFQ8hMRkeog75IWslkhsLPkx6chzSBsvkv+v+SLiXO6ahD6ATQMnsjhL9fDBE8PJ4Gk8VyTKxiWSdnYvQ==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6SFFyevxZVtQ3eTXyGW2A1nzCP/DUijVPDA92KWLeuEKEzmR8fdqe8FxJ68XkoSbFx8/LsCHEmfjWEKqAI9nlhzwgrcyGFqgqZlCXMCWMFpX6zIwRVjqeFWVk20ZWJ11oakTjiD34Q2/owVm/z4vWMaxYhjA2PpWFk8GR6wRhVp7GoAkggPBhQOuSkMDrSvBWAAgAHS4uMOzfCXoeOoCM/vaLtMld1fHpZc50Stn4Rdo35eEY1HSl7b1VTZTIneZmCVMGUnqRg3DQVK/bLd2ihEiLZZFGjiePobHU+Kwsd0ZSONVqSAKVQALWh4kc4/p90FDLNubS9SNzKIgm66nTQ==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIDJTCCAg2gAwIBAgIJAIO86FDuekY6MA0GCSqGSIb3DQEBCwUAMDUxMzAxBgNVBAMeKgBEAEUAUwBLAFQATwBQAC0AQQBLAEcAMwBEADAARgBcAGsAaQBmAGEAbDAeFw0yNjA4MTAwNjEyMTlaFw0yNjA4MTcwNjEyMTlaMDUxMzAxBgNVBAMeKgBEAEUAUwBLAFQATwBQAC0AQQBLAEcAMwBEADAARgBcAGsAaQBmAGEAbDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOkhRcnr8WVbUN3k18hltgNZ8wj/w1Io1TwwPdili3rhChM5kfH3anvBcSevF5KEmxcfPy7AhxJn41hCqgCPZ5Yc8IK3MhhaoKmZQlzAljBaV+syMEVY6nhVlZNtGViddaGpE44g9+ENv6MFZv8+L1jGsWIYwNj6VhZPBkesEYVaexqAJIIDwYUDrkpDA60rwVgAIAB0uLjDs3wl6HjqAjP72i7TJXdXx6WXOdErZ+EXaN+XhGNR0pe29VU2UyJ3mZglTBlJ6kYNw0FSv2y3dooRIi2WRRo4nj6Gx1PisLHdGUjjVakgClUAC1oeJHOP6fdBQyzbm0vUjcyiIJuup00CAwEAAaM4MDYwDAYDVR0TAQH/BAIwADAOBgNVHQ8BAf8EBAMCB4AwFgYDVR0lAQH/BAwwCgYIKwYBBQUHAwMwDQYJKoZIhvcNAQELBQADggEBABDlSvJakQ7ys9JXIkb1aW7gIKHjsZE6wcW7DRoUINSltaLsN7FUtgAmy/qIYel9/NkfBxe5TLD92Iy1RWhb6ksk/An2WNZy4jR9/YUD6tznLyZ0oRWJOzW1ZFPZ4vEuPp+wswRivA7C24hss0KrZfO0vxl3tk4qmoT3RloojtZk4XtYO0fgD/DHEUN8ZyN2v3PbtG0LvBaQNxBwQGvU5AFWCKVf9OGTdeo2BhsypcOJh97ekWH6IpjDI/9cA8bbPNWnKUwpgvfQHW/OiwzeOj8jT6zgMbcrgqcT5w+yo1TyKKy9qFhotuwjEtwo5Z5+R9/vJcDC/X785uUwdcuQFG0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
